@@ -1,10 +1,3 @@
-Отлично! Вот обновленный Dockerfile Reference.md с фокусом на .NET 7 и JavaScript/TypeScript:
-
----
-
-**[file name]: 4 - Dockerfile Reference.md**
-**[file content begin]**
-
 # Dockerfile Reference
 
 Полный справочник по инструкциям Dockerfile с примерами для .NET 7 и JavaScript/TypeScript.
@@ -515,7 +508,7 @@ CMD ["nginx", "-g", "daemon off;"]
 
 ## 📋 Пример .dockerignore
 
-```
+```bash
 # .NET
 **/bin/
 **/obj/
@@ -576,8 +569,5 @@ CMD ["node", "src/index.js"]
 ```
 
 Этот справочник покрывает все основные инструкции Dockerfile с фокусом на .NET 7 и JavaScript/TypeScript приложениях.
-[file content end]
 
 ---
-
-Теперь Dockerfile Reference полностью адаптирован под твой стек технологий! 🎯 .NET 7 и JavaScript/TypeScript примеры готовы к использованию.

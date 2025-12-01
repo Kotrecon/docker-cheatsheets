@@ -18,7 +18,7 @@ docker run -d \
 
 ## 📁 Структура проекта
 
-```
+```bash
 postgres-vector/
 ├── docker-compose.yml
 └── init.sql

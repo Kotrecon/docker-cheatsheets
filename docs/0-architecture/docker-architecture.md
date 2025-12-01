@@ -6,23 +6,23 @@
 
 ### 🔰 Основные компоненты
 
-- [**Layers**](0%20-%20Docker%20Architecture.%20Layers.md) - Слоистая файловая система и механизм Copy-on-Write
-- [**Images**](1%20-%20Docker%20Architecture.%20Images.md) - Неизменяемые шаблоны контейнеров
-- [**Containers**](2%20-%20Docker%20Architecture.%20Containers.md) - Запущенные экземпляры образов
+- [**Layers**](0-docker-architecture-layers.md) - Слоистая файловая система и механизм Copy-on-Write
+- [**Images**](1-docker-architecture-images.md) - Неизменяемые шаблоны контейнеров
+- [**Containers**](2-docker-architecture-containers.md) - Запущенные экземпляры образов
 
 ### 💾 Система хранения
 
-- [**Storage Drivers**](3%20-%20Docker%20Architecture.%20Storage%20Drivers.md) - Драйверы хранения слоёв и файловых систем
-- [**Volumes**](5%20-%20Docker%20Architecture.%20Volumes.md) - Механизмы persistence данных
+- [**Storage Drivers**](3-docker-architecture-storage-drivers.md) - Драйверы хранения слоёв и файловых систем
+- [**Volumes**](5-docker-architecture-volumes.md) - Механизмы persistence данных
 
 ### 🌐 Сетевая инфраструктура
 
-- [**Networking**](4%20-%20Docker%20Architecture.%20Networking.md) - Сетевые драйверы и изоляция
+- [**Networking**](4-docker-architecture-networking.md) - Сетевые драйверы и изоляция
 
 ### 🏗️ Процесс сборки и распределения
 
-- [**Build Process**](7%20-%20Docker%20Architecture.%20Build%20Process.md) - Процесс сборки образов и кэширование
-- [**Registry**](6%20-%20Docker%20Architecture.%20Registry.md) - Хранилища образов и распределение
+- [**Build Process**](7-docker-architecture-build-process.md) - Процесс сборки образов и кэширование
+- [**Registry**](6-docker-architecture-registry.md) - Хранилища образов и распределение
 
 ## 🏗️ Общая архитектурная схема
 
@@ -61,23 +61,5 @@ Docker Client → Docker Daemon → Containers
 - **Separation of Concerns** (Разделение ответственности)
 - **Microservices Architecture** (Микросервисная архитектура)
 - **Declarative Configuration** (Декларативная конфигурация)
-
----
-
-## Структура папки
-
-```bash
-📁 0 - Архитектура/
-├── 🗺️ Docker Architecture.md (НОВЫЙ - оглавление)
-├── 0 - Docker Architecture. Layers.md
-├── 1 - Docker Architecture. Images.md
-├── 2 - Docker Architecture. Containers.md
-├── 3 - Docker Architecture. Storage Drivers.md
-├── 4 - Docker Architecture. Networking.md
-├── 5 - Docker Architecture. Volumes.md
-├── 6 - Docker Architecture. Registry.md
-└── 7 - Docker Architecture. Build Process.md
-
-```
 
 ---

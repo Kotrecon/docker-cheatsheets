@@ -63,7 +63,7 @@ docker trust inspect myregistry/my-app:1.0 --pretty
 docker trust inspect myregistry/my-app
 ```
 
-### Пример вывода проверки:
+### Пример вывода проверки
 
 ```json
 {
@@ -250,7 +250,7 @@ docker trust inspect myregistry/my-app --debug
 docker trust revoke myregistry/my-app:1.0
 ```
 
-### Пример отладки:
+### Пример отладки
 
 ```bash
 # Если образ не подписан

@@ -14,7 +14,7 @@
 
 ## 📁 Структура production проекта
 
-```
+```bash
 production-project/
 ├── docker-compose.prod.yml          # Production stack
 ├── docker-stack.yml                 # Swarm deployment

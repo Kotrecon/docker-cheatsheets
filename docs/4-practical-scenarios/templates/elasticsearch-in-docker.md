@@ -13,7 +13,7 @@
 
 ## 📁 Структура проекта
 
-```
+```bash
 elasticsearch-cluster/
 ├── docker-compose.yml              # Базовый кластер
 ├── docker-compose.prod.yml         # Production кластер

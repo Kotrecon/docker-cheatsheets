@@ -15,7 +15,7 @@
 
 ### Этапы миграции
 
-```
+```bash
 1. Анализ и подготовка
    ├── Аудит приложения
    ├── Выявление зависимостей
@@ -445,7 +445,7 @@ networks:
 
 ### Traffic management configuration
 
-```nginx
+```bash
 # blue-green-router.conf
 http {
     upstream blue {

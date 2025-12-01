@@ -6,20 +6,20 @@
 
 ### 🖥️ Базовая установка
 
-- [**Multi-OS Installation**](0%20-%20Docker%20Installation.%20Multi-OS.md) - Установка на Windows, Linux, macOS
-- [**WSL Installation**](1%20-%20Docker%20Installation.%20WSL.md) - Установка в Windows Subsystem for Linux
+- [**Multi-OS Installation**](0-docker-installation-multi-os.md) - Установка на Windows, Linux, macOS
+- [**WSL Installation**](1-docker-installation-wsl.md) - Установка в Windows Subsystem for Linux
 
 ### ⚙️ Конфигурация системы
 
-- [**Daemon Configuration**](2%20-%20Docker%20Daemon%20Configuration.md) - Настройка Docker Engine (dockerd)
+- [**Daemon Configuration**](2-docker-daemon-configuration.md) - Настройка Docker Engine (dockerd)
 
 ### 🔄 Интеграция в процессы разработки
 
-- [**CI-CD Integration**](3%20-%20Docker%20in%20CI-CD%20Pipelines.md) - Интеграция с системами непрерывной интеграции
+- [**CI-CD Integration**](3-docker-in-ci-cd-pipelines.md) - Интеграция с системами непрерывной интеграции
 
 ### 🤖 Автоматизация развертывания
 
-- [**Ansible Deployment**](4%20-%20Automated%20Docker%20Deployment%20with%20Ansible.md) - Автоматизированное развертывание с помощью Ansible
+- [**Ansible Deployment**](4-automated-docker-deployment-with-ansible.md) - Автоматизированное развертывание с помощью Ansible
 
 ## 🏗️ Общая схема установки и настройки
 
@@ -74,22 +74,3 @@ docker run --rm alpine ping -c 3 google.com
 ```
 
 ---
-
-## Обновленная структура папки
-
-```bash
-📁 1 - Установка и настройка/
-├── 🗺️ Docker Installation & Configuration.md
-├── 0 - Docker Installation. Multi-OS.md
-├── 1 - Docker Installation. WSL.md
-├── 2 - Docker Daemon Configuration.md
-├── 3 - Docker in CI-CD Pipelines.md
-└── 4 - Automated Docker Deployment with Ansible.md
-```
-
-Этот файл будет служить:
-
-- **Навигацией** по всем руководствам установки и настройки
-- **Обзором** процессов настройки окружения
-- **Руководством** по последовательности настройки
-- **Чеклистом** для проверки корректности установки

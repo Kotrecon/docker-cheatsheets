@@ -13,7 +13,7 @@
 
 ## 📁 Структура проекта
 
-```
+```bash
 aspnet-core-app/
 ├── Dockerfile                    # Production Dockerfile
 ├── Dockerfile.dev               # Development Dockerfile

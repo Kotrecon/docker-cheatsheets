@@ -13,7 +13,7 @@
 
 ## 📁 Структура проекта
 
-```
+```bash
 keycloak-cluster/
 ├── docker-compose.yml              # Базовая установка
 ├── docker-compose.prod.yml         # Production кластер
